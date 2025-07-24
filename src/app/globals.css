@@ -1,12 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: white;
+  --background: #F9F7F7;
+  --secondary: #DBE2EF;
+  --tertiary: #3F72AF;
+  --accent: #F9F7F7;
   --text-color: black;
 }
 
 [data-theme='dark'] {
   --background: #222831;
+  --secondary: #393E46;
+  --tertiary: #00ADB5;
+  --accent: #F9F7F7;
   --text-color: white;
 }
 
