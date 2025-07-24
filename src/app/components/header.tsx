@@ -1,4 +1,4 @@
-export default function Navigation() {
+export default function header() {
   return (
     <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
       <div className="text-lg font-bold">Portfolio</div>
