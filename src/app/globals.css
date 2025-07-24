@@ -1,14 +1,17 @@
 @import "tailwindcss";
 
-.theme-light {
-  --color-primary: #0060df;
-  --color-secondary: #fbfbfe;
-  --color-accent: #fd6f53;
-  --font-color: #000000;
+:root {
+  --background: white;
+  --foreground: black;
 }
-.theme-dark {
-  --color-primary: #17ed90;
-  --color-secondary: yellow;
-  --color-accent: #12cdea;
-  --font-color: #ffffff;
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
 }
