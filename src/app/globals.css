@@ -29,6 +29,14 @@ body {
   background: var(--tertiary);
 }
 
+.bg-accent {
+  background: var(--accent);
+}
+
+.border-accent {
+  border-color: var(--accent);
+}
+
 .content-container {
   background: var(--secondary);
   color: var(--text-color);

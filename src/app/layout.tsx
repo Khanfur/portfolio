@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={montserrat.className}>
-        <div className="container">
+        <div className="container h-screen">
           <ThemeProvider
             themes={["light", "dark"]}
             defaultTheme="light"
