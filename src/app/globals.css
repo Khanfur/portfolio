@@ -9,10 +9,10 @@
 }
 
 [data-theme='dark'] {
-  --background: #222831;
-  --secondary: #393E46;
-  --tertiary: #00ADB5;
-  --accent: #F9F7F7;
+  --background: #0A0D27;
+  --secondary: #161931;
+  --tertiary: #485665;
+  --accent: #9874F6;
   --text-color: white;
 }
 
