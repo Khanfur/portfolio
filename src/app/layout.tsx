@@ -5,10 +5,9 @@ import { ThemeProvider } from "next-themes";
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
-  subsets: ['latin'],
-  variable: '--font-montserrat',
+  subsets: ["latin"],
+  variable: "--font-montserrat",
 });
-
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -23,14 +22,16 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={montserrat.className}>
-        <ThemeProvider
-          themes={["light", "dark"]}
-          defaultTheme="light"
-          enableSystem={true}
-        >
-          <Header />
-          {children}
-        </ThemeProvider>
+        <div className="container">
+          <ThemeProvider
+            themes={["light", "dark"]}
+            defaultTheme="light"
+            enableSystem={true}
+          >
+            <Header />
+            {children}
+          </ThemeProvider>
+        </div>
       </body>
     </html>
   );
